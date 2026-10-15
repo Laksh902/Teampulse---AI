@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeamPulse AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 TeamPulse AI</h1>
+
+    <div class="report-header">
+      <h2>Daily Report Generator</h2>
+      <p id="current-date"></p>
+    </div>
+
+    <form id="reportForm">
+      <input type="text" id="employeeName" placeholder="Employee Name (e.g. Ramu)" required>
+      <textarea id="completed" placeholder="What you completed today?" required></textarea>
+      <textarea id="pending" placeholder="What is pending?"></textarea>
+      <textarea id="issues" placeholder="Any issues / blockers?"></textarea>
+      <button type="submit">Generate Report</button>
+    </form>
+
+    <div class="report-section">
+      <button id="saveReportBtn" style="display:none; background:#00bfff;">Save Report</button>
+      <div id="reportContent" class="report-content"></div>
+    </div>
+
+    <div class="history-section">
+      <h3>Previous Reports</h3>
+      <div id="reportHistory" class="history-list">
+        <p>No previous reports</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

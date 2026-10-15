@@ -1,0 +1,35 @@
+body{
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+  margin:0; padding:20px;
+}
+.container{
+  max-width: 650px;
+  margin: 20px auto;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+}
+h1{ text-align: center; color: #38bdf8; }
+.report-header{ text-align:center; margin-bottom:15px; }
+#current-date{ color:#94a3b8; font-weight:bold; }
+input, textarea{
+  width: 100%; padding: 12px; margin: 8px 0;
+  border-radius: 8px; border: none; outline: none;
+  box-sizing: border-box;
+}
+button{
+  width: 100%; padding: 12px; background: #0ea5e9;
+  color: white; border: none; border-radius: 8px;
+  font-weight: bold; cursor: pointer; margin-top: 10px;
+}
+.report-content{ margin-top:15px; background:#0f172a; padding:15px; border-radius:8px; border:1px solid #38bdf8; min-height:20px;}
+.history-section{ margin-top:25px; }
+.history-list{ display:flex; flex-direction:column; gap:10px; }
+.history-item{
+  background:#0f172a; border:1px solid #334155; padding:12px;
+  border-radius:8px; display:flex; justify-content:space-between; align-items:center;
+}
+.view-btn{ background:#38bdf8!important; color:white!important; width:auto!important; padding:6px 14px!important; }
+.del-btn{ background:#ef4444!important; color:white!important; width:auto!important; padding:6px 14px!important; }
